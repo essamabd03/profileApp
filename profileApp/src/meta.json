@@ -4,7 +4,23 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "AdMob Interstitial",
+                            "translatedName": "AdMob Interstitial",
+                            "isApi": true,
+                            "reactType": "AdMobInterstitial",
+                            "properties": {
+                                "AdUnitID": "ca-app-pub-8719432633926284/9463440327",
+                                "AdUnitID_iOS": "ca-app-pub-8719432633926284/9463440327",
+                                "TestMode": true
+                            },
+                            "children": [],
+                            "id": "47ac21cd-668a-402d-a941-72342ab2e668",
+                            "thunkableVersion": 446,
+                            "name": "AdMob_Interstitial1"
+                        }
+                    ]
                 }
             },
             "assets": {
@@ -21,8 +37,8 @@
                     "createdAt": "2024-02-14T01:34:10.308Z",
                     "updatedAt": "2024-02-14T01:34:10.308Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea263b85de05286c4a62a/projects/65ca54395fcacb8bfdf662e3/assets/65cc189263ddf6af57d9891c?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240214%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240214T013410Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=584db9e18f851b6096b4fbb87c8fce92f528039a3e507ebce262417ece2fc0157fe39940c4baa1fdc674801ea0f58df061bf00f08967959571e9d058e3f3b07d60a811a6322f555e1f9eee3bb5c4c29938cb6c6acadf80f662cd04c8f086f7c7b87e30a2646f51a4080cff1c6a8f3812cd0182e39937cd7b8ccdd16ade65d2ffe6c4950d1c1f08a37d8d4754f8a0660678c95505ff98c1a11a225a4fee7718f92ffb62702565ae77c64a61e3ad63aa89951e96e564cd795e5fd15f259dec0835cb6496b3ed58d84aa2cbd01a4123438c715637ad42e376d07db3a5f5cd357a1cd8bc61a6455dfa665f99243693ad5ac4b881e36721bed536fa68e2151c7cb6ab",
-                    "signedUrlExpirationTime": 1708047250338
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea263b85de05286c4a62a/projects/65ca54395fcacb8bfdf662e3/assets/65cc189263ddf6af57d9891c?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240227%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240227T181204Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=0e8b9d864e546c0a39a0d0ddd7ddf01b7f787f00a8e365133109b6b0ddc09ac5f8f8f6a7fa98d5f7c8e5620b175ffac50c63812aced70d7915304be1b7fd1763a55343da51b0d8c63f85fe0b8db867a7cb41b413eac8a9028a95085cc9835293d509dee383b7bf76c8fa9accc0039ee54c55e03262948ec024c2ca738a90a3b6ec7b7de8d7c62ce9ba044ffe17ffec5d439777cdcb00ba7bf843d5460f9ff70d9204ec722e027133d1dfcdc1b29a5b71f656b90b7d771cf466f9435843117bcbade4b6c09913e9d74fc5b025b6c7701a7bec8a000aff7ddd05d3bb3e59aac1df1861d975efa788a718698d2333956b5bf5beed550b231f7ca8bb48c076518108",
+                    "signedUrlExpirationTime": 1709230324315
                 }
             },
             "backendUpgradeVersion": 24,
@@ -189,10 +205,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -238,10 +251,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -256,7 +266,7 @@
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
@@ -265,7 +275,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "2",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
